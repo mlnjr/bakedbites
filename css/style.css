@@ -1,0 +1,60 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+	font-style: oblique; 
+}
+
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+	background-size: cover;
+	background-position: zoom;
+}
+
+
+nav{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 150px;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.6);
+	position: fixed;
+}
+
+nav li a{
+	display: block;
+	color: #fff;
+	padding: 25% 16px;
+	text-decoration: none;
+	text-align: center;
+}
+
+nav li a:hover{
+	background-color: #555;
+}
+
+.sub table, .tr, .td{
+	text-align: center;
+	margin-top: 5px;
+	border-spacing: 20px;
+	padding: 5px;
+}
+
+.body{
+    margin-left: 200px;
+    text-align: center;
+}
+
+.wrap {    
+    width: 80em;          
+    padding: 15px;    
+    word-wrap: break-word;      
+    line-height: 30px;
+}      
+
+h1{
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
